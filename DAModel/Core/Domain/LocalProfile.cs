@@ -60,7 +60,7 @@ namespace DAModel.Core.Domain
                 IsTransom = this.IsTransom,
                 Sort = this.Sort,
                 Material = this.Material.Clone() as Material,
-                Picture = this.Picture.Clone() as Picture,
+               // Picture = this.Picture.Clone() as Picture,
                 System = this.System.Clone() as PSystem
             };
         }

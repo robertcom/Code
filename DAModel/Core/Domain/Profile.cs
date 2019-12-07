@@ -31,7 +31,7 @@ namespace DAModel.Core.Domain
         public bool? IsTransom { get; set; }
         public int? Sort { get; set; }
         public virtual Material Material { get; set; }
-        public virtual Picture Picture { get; set; }
+       // public virtual Picture Picture { get; set; }
         public virtual PSystem System { get; set; }
 
         #endregion
@@ -66,7 +66,7 @@ namespace DAModel.Core.Domain
                 IsTransom = this.IsTransom,
                 Sort = this.Sort,
                 Material = this.Material.Clone() as Material,
-                Picture = this.Picture.Clone() as Picture,
+                //Picture = this.Picture.Clone() as Picture,
                 System = this.System.Clone() as PSystem
             };
         }

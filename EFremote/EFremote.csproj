@@ -94,9 +94,9 @@
     <Compile Include="Migrations\201911162334103_PictureAndProducerConfiguration.designer.cs">
       <DependentUpon>201911162334103_PictureAndProducerConfiguration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201911171818395_ProfilePictureConfiguration.cs" />
-    <Compile Include="Migrations\201911171818395_ProfilePictureConfiguration.designer.cs">
-      <DependentUpon>201911171818395_ProfilePictureConfiguration.cs</DependentUpon>
+    <Compile Include="Migrations\201911290658337_ErrRepair.cs" />
+    <Compile Include="Migrations\201911290658337_ErrRepair.designer.cs">
+      <DependentUpon>201911290658337_ErrRepair.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -137,8 +137,8 @@
     <EmbeddedResource Include="Migrations\201911162334103_PictureAndProducerConfiguration.resx">
       <DependentUpon>201911162334103_PictureAndProducerConfiguration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201911171818395_ProfilePictureConfiguration.resx">
-      <DependentUpon>201911171818395_ProfilePictureConfiguration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201911290658337_ErrRepair.resx">
+      <DependentUpon>201911290658337_ErrRepair.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

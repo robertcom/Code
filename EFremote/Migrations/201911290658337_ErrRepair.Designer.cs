@@ -7,13 +7,13 @@ namespace EFremote.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.3.0")]
-    public sealed partial class ProfilePictureConfiguration : IMigrationMetadata
+    public sealed partial class ErrRepair : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(ProfilePictureConfiguration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(ErrRepair));
         
         string IMigrationMetadata.Id
         {
-            get { return "201911171818395_ProfilePictureConfiguration"; }
+            get { return "201911290658337_ErrRepair"; }
         }
         
         string IMigrationMetadata.Source

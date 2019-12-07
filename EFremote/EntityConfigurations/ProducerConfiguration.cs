@@ -7,8 +7,8 @@ namespace EFremote.EntityConfigurations
     {
         public ProducerConfiguration()
         {
-            HasOptional(p => p.Picture)
-                .WithOptionalPrincipal(p => p.Producer);
+            //HasOptional(p => p.Picture)
+            //    .WithOptionalPrincipal(p => p.Producer);
 
             HasIndex(p => p.Indeks)
                 .HasName("Index_indeks")
