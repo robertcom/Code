@@ -12,7 +12,7 @@ namespace DAModel.Core.Domain
         public string Path { get; set; }
         public double Width { get; set; }
         public double Height { get; set; }
-        //public Profile Profile { get; set; }
+        public Profile Profile { get; set; }
        // public Company Company { get; set; }
 
         #endregion

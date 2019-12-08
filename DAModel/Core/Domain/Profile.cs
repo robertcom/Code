@@ -31,7 +31,7 @@ namespace DAModel.Core.Domain
         public bool? IsTransom { get; set; }
         public int? Sort { get; set; }
         public virtual Material Material { get; set; }
-       // public virtual Picture Picture { get; set; }
+        public virtual Picture Picture { get; set; }
         public virtual PSystem System { get; set; }
 
         #endregion

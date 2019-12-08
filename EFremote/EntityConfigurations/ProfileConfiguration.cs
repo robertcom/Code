@@ -7,12 +7,12 @@ namespace EFremote.EntityConfigurations
     {
         public ProfileConfiguration()
         {
-            //HasOptional(p => p.Picture)
-            //    .WithOptionalPrincipal(p => p.Profile);
+            HasOptional(p => p.Picture)
+                .WithRequired(p => p.Profile);
+
             HasIndex(p => p.Indeks)
                 .HasName("Index_indeks")
                 .IsUnique();
-
             Property(p => p.Indeks)
                .IsRequired()
                .HasMaxLength(80);

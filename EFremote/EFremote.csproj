@@ -102,6 +102,10 @@
     <Compile Include="Migrations\201912081454503_NoRelationCompanyPicture.designer.cs">
       <DependentUpon>201912081454503_NoRelationCompanyPicture.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912081635060_ProfilePictureRelation.cs" />
+    <Compile Include="Migrations\201912081635060_ProfilePictureRelation.designer.cs">
+      <DependentUpon>201912081635060_ProfilePictureRelation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StatykaModel.cs" />
@@ -146,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912081454503_NoRelationCompanyPicture.resx">
       <DependentUpon>201912081454503_NoRelationCompanyPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912081635060_ProfilePictureRelation.resx">
+      <DependentUpon>201912081635060_ProfilePictureRelation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
