@@ -46,6 +46,7 @@
     <Compile Include="Core\Domain\LocalLicense.cs" />
     <Compile Include="Core\Domain\LocalProfile.cs" />
     <Compile Include="Core\Domain\LocalProfileOwn.cs" />
+    <Compile Include="Core\Domain\Logo.cs" />
     <Compile Include="Core\Domain\Material.cs" />
     <Compile Include="Core\Domain\Config.cs" />
     <Compile Include="Core\Domain\Picture.cs" />

@@ -14,7 +14,7 @@ namespace DAModel.Core.Domain
         public string Code { get; set; }
         public string City { get; set; }
         public virtual string Country { get; set; }
-        //public virtual Picture Logo {get; set;}
+        public virtual Logo Logo {get; set;}
 
         #endregion
     }

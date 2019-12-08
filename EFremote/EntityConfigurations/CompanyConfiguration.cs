@@ -10,9 +10,9 @@ namespace EFremote.EntityConfigurations
         {
             this.ToTable("Companies");
             this.HasIndex(p => p.Indeks).IsUnique().HasName("Index_Indeks");
-            
-            //HasOptional(c=>c.Logo)
-                
+
+            HasOptional(c => c.Logo)
+                .WithRequired(l => l.Company);
 
             Property(p => p.Indeks)
                 .IsRequired()

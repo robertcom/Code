@@ -45,6 +45,7 @@ namespace EFremote
             modelBuilder.Configurations.Add<Picture>(new PictureConfiguration());
             modelBuilder.Configurations.Add<Producer>(new ProducerConfiguration());
             modelBuilder.Configurations.Add<Profile>(new ProfileConfiguration());
+            modelBuilder.Configurations.Add<Logo>(new LogoConfiguration());
         }
 
     }

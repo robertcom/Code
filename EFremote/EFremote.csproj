@@ -57,6 +57,7 @@
     <Compile Include="EntityConfigurations\CompanyConfiguration.cs" />
     <Compile Include="EntityConfigurations\ConfigConfiguration.cs" />
     <Compile Include="EntityConfigurations\LicenseConfiguration.cs" />
+    <Compile Include="EntityConfigurations\LogoConfiguration.cs" />
     <Compile Include="EntityConfigurations\MaterialConfiguration.cs" />
     <Compile Include="EntityConfigurations\PictureConfiguration.cs" />
     <Compile Include="EntityConfigurations\ProducerConfiguration.cs" />
@@ -106,6 +107,10 @@
     <Compile Include="Migrations\201912081635060_ProfilePictureRelation.designer.cs">
       <DependentUpon>201912081635060_ProfilePictureRelation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912081706561_CompanyLogoRelation.cs" />
+    <Compile Include="Migrations\201912081706561_CompanyLogoRelation.designer.cs">
+      <DependentUpon>201912081706561_CompanyLogoRelation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StatykaModel.cs" />
@@ -153,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912081635060_ProfilePictureRelation.resx">
       <DependentUpon>201912081635060_ProfilePictureRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912081706561_CompanyLogoRelation.resx">
+      <DependentUpon>201912081706561_CompanyLogoRelation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
