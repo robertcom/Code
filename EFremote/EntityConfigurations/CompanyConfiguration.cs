@@ -13,6 +13,8 @@ namespace EFremote.EntityConfigurations
 
             HasOptional(c => c.Logo)
                 .WithRequired(l => l.Company);
+            HasOptional(c => c.Producer)
+                .WithRequired(p => p.Company);
 
             Property(p => p.Indeks)
                 .IsRequired()

@@ -10,7 +10,7 @@ namespace DAModel.Core.Domain
         public int Id { get; set; }
         public string Indeks { get; set; }
         public string Name { get; set; }
-        //public virtual Picture Picture { get; set; }
+        public virtual Company Company { get; set; }
         public virtual ObservableCollection<PSystem> Systems { get; set; }
 
         #endregion
