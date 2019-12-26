@@ -30,7 +30,6 @@ namespace EFremote
         public DbSet<Material> Materials { get; set; }
         public DbSet<Config> Configs { get; set; }
         public DbSet<Picture> Pictures { get; set; }
-        public DbSet<Producer> Producers { get; set; }
         public DbSet<PSystem> Systems { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Translation> Translations { get; set; }
@@ -43,9 +42,9 @@ namespace EFremote
             modelBuilder.Configurations.Add<License>(new LicenseConfiguration());
             modelBuilder.Configurations.Add<Material>(new MaterialConfiguration());
             modelBuilder.Configurations.Add<Picture>(new PictureConfiguration());
-            modelBuilder.Configurations.Add<Producer>(new ProducerConfiguration());
             modelBuilder.Configurations.Add<Profile>(new ProfileConfiguration());
             modelBuilder.Configurations.Add<Logo>(new LogoConfiguration());
+            modelBuilder.Configurations.Add<PSystem>(new PSystemConfiguration());
         }
 
     }

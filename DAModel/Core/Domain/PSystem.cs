@@ -11,7 +11,7 @@ namespace DAModel.Core.Domain
         public string Indeks { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public virtual Producer Producer { get; set; }
+        public virtual Company Company { get; set; }
         public virtual ObservableCollection<Profile> Profiles { get; set; }
         public virtual ObservableCollection<User> Users { get; set; }
 

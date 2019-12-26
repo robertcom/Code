@@ -1,5 +1,7 @@
 ﻿
 
+using System.Collections.ObjectModel;
+
 namespace DAModel.Core.Domain
 {
     public class Company
@@ -13,9 +15,12 @@ namespace DAModel.Core.Domain
         public string No { get; set; }
         public string Code { get; set; }
         public string City { get; set; }
+        public bool IsVisible { get; set; }
+        public bool IsDeleted { get; set; }
+        public bool IsProducer { get; set; }
         public virtual string Country { get; set; }
         public virtual Logo Logo {get; set;}
-        public virtual Producer Producer { get; set; }
+        public virtual ObservableCollection<PSystem> Systems { get; set; }
 
         #endregion
     }

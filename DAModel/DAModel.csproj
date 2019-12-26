@@ -50,7 +50,6 @@
     <Compile Include="Core\Domain\Material.cs" />
     <Compile Include="Core\Domain\Config.cs" />
     <Compile Include="Core\Domain\Picture.cs" />
-    <Compile Include="Core\Domain\Producer.cs" />
     <Compile Include="Core\Domain\Profile.cs" />
     <Compile Include="Core\Domain\PSystem.cs" />
     <Compile Include="Core\Domain\User.cs" />

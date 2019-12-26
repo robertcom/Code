@@ -60,8 +60,8 @@
     <Compile Include="EntityConfigurations\LogoConfiguration.cs" />
     <Compile Include="EntityConfigurations\MaterialConfiguration.cs" />
     <Compile Include="EntityConfigurations\PictureConfiguration.cs" />
-    <Compile Include="EntityConfigurations\ProducerConfiguration.cs" />
     <Compile Include="EntityConfigurations\ProfileConfiguration.cs" />
+    <Compile Include="EntityConfigurations\PSystemConfiguration.cs" />
     <Compile Include="EntityConfigurations\UserConfiguration.cs" />
     <Compile Include="Migrations\201911141319484_InitialModel.cs" />
     <Compile Include="Migrations\201911141319484_InitialModel.designer.cs">
@@ -114,6 +114,34 @@
     <Compile Include="Migrations\201912081831138_CompanyProducerRelation.cs" />
     <Compile Include="Migrations\201912081831138_CompanyProducerRelation.designer.cs">
       <DependentUpon>201912081831138_CompanyProducerRelation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912211725393_RemoveProducerFromPSystem.cs" />
+    <Compile Include="Migrations\201912211725393_RemoveProducerFromPSystem.designer.cs">
+      <DependentUpon>201912211725393_RemoveProducerFromPSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912211734149_AddProducerToPSystem.cs" />
+    <Compile Include="Migrations\201912211734149_AddProducerToPSystem.designer.cs">
+      <DependentUpon>201912211734149_AddProducerToPSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912211737053_FillCompaniesTable.cs" />
+    <Compile Include="Migrations\201912211737053_FillCompaniesTable.designer.cs">
+      <DependentUpon>201912211737053_FillCompaniesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912261104183_RemoveProducerTable.cs" />
+    <Compile Include="Migrations\201912261104183_RemoveProducerTable.designer.cs">
+      <DependentUpon>201912261104183_RemoveProducerTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912261328024_AddColumnsToCompaniesPSystem.cs" />
+    <Compile Include="Migrations\201912261328024_AddColumnsToCompaniesPSystem.designer.cs">
+      <DependentUpon>201912261328024_AddColumnsToCompaniesPSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912261354014_ModifyAliplastRecord.cs" />
+    <Compile Include="Migrations\201912261354014_ModifyAliplastRecord.designer.cs">
+      <DependentUpon>201912261354014_ModifyAliplastRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912261530565_FKCompanyNotNullInPSystem.cs" />
+    <Compile Include="Migrations\201912261530565_FKCompanyNotNullInPSystem.designer.cs">
+      <DependentUpon>201912261530565_FKCompanyNotNullInPSystem.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -168,6 +196,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912081831138_CompanyProducerRelation.resx">
       <DependentUpon>201912081831138_CompanyProducerRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912211725393_RemoveProducerFromPSystem.resx">
+      <DependentUpon>201912211725393_RemoveProducerFromPSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912211734149_AddProducerToPSystem.resx">
+      <DependentUpon>201912211734149_AddProducerToPSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912211737053_FillCompaniesTable.resx">
+      <DependentUpon>201912211737053_FillCompaniesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912261104183_RemoveProducerTable.resx">
+      <DependentUpon>201912261104183_RemoveProducerTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912261328024_AddColumnsToCompaniesPSystem.resx">
+      <DependentUpon>201912261328024_AddColumnsToCompaniesPSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912261354014_ModifyAliplastRecord.resx">
+      <DependentUpon>201912261354014_ModifyAliplastRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912261530565_FKCompanyNotNullInPSystem.resx">
+      <DependentUpon>201912261530565_FKCompanyNotNullInPSystem.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
